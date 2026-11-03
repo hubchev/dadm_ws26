@@ -67,19 +67,19 @@ I acknowledge that the university may use plagiarism detection software to check
 
 Checklist:
 
-- [ ] The handout contains 3-5 pages of text.
-- [ ] The submission contains the Quarto file of the handout.
-- [ ] The submission contains the Quarto file of the presentation.
-- [ ] The submission contains the HTML file of the handout.
-- [ ] The submission contains the HTML file of the  presentation.
-- [ ] The submission contains the PDF file of the  handout.
-- [ ] The submission contains the PDF file of the  presentation.
-- [ ] The title page of the presentation and the handout contain personal details (name, email, matriculation number). 
-- [ ] The handout contains a bibliography, created using BibTeX with an APA citation style.
-- [ ] I have made a pull request on [https://github.com/hubchev/make_a_pull_request/](https://github.com/hubchev/make_a_pull_request/) where I added my GitHub username and the GitHub repository that relates to this submission in the file [https://github.com/hubchev/make_a_pull_request/dadm_ws26.md](https://github.com/hubchev/make_a_pull_request/dadm_ws26.md).
-- [ ] Either the handout or the presentation contains R code that proofs the expertise in coding.
-- [ ] The filled out Affidavit.
-- [ ] The link to the presentation and the handout published on GitHub.
+- [ ] My handout contains 3-5 pages of text (The front page, the affidavit, and the reference list do not count).
+- [ ] My submission contains the Quarto file of the handout.
+- [ ] My submission contains the Quarto file of the presentation.
+- [ ] My submission contains the HTML file of the handout.
+- [ ] My submission contains the HTML file of the  presentation.
+- [ ] My submission contains the PDF file of the  handout.
+- [ ] My submission contains the PDF file of the  presentation.
+- [ ] The title page of my presentation and handout contain personal details (name, email, matriculation number). 
+- [ ] My handout contains a bibliography, created using BibTeX with an APA citation style.
+- [ ] Either the handout or the presentation contains R code that verifies my expertise in coding.
+- [ ] The Affidavit is  filled out correctly. 
+- [ ] The PDF and HTML files of the presentation and the handout are published on GitHub Pages.
+- [ ] I submitted a pull request to the repository [https://github.com/hubchev/make_a_pull_request](https://github.com/hubchev/make_a_pull_request), where I added my GitHub username and the repository related to this submission to the file [https://github.com/hubchev/make_a_pull_request/dadm_ws26.md](https://github.com/hubchev/make_a_pull_request/dadm_ws26.md).
 
 \[Your Name,\] \[Date,\] \[Place\]
 :::
