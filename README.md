@@ -1,1 +1,1 @@
-# dadm_ws26
+# This repo is about the dadm course in WS26.

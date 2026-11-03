@@ -1,0 +1,148 @@
+---
+title: "Presentation and Handout Guidelines"
+subtitle: "Data Analysis for Decision-Making (WS 2026)"
+
+author:
+  - name:
+      given: Stephan
+      family: Huber
+      literal: Prof. Dr. Stephan Huber (Matr. Nr. 1234567890)
+      degress: Prof. Dr. 
+    affiliation: Fresenius University of Applied Science
+    url: https://hubchev.github.io/
+    email: stephan.huber@hs-fresenius.de
+    corresponding: true
+        
+course: Data Analysis for Decision-Making
+professor: Prof. Dr. Stephan Huber
+date: today
+date-format: long
+abstract: "This document outlines the requirements for successfully contributing to the course through an academic presentation. It introduces and assigns the available topics, establishes the standards for both delivery and the creation of files, and provides tips how students can effectively meet the expectations."
+
+format:
+  apaquarto-pdf:
+    documentmode: stu
+  html:
+    embed-resources: true
+    page-layout: article
+
+a4paper: true
+
+bibliography: "/home/sthu/Dropbox/LIT/LIT_full.bib"
+csl: "/home/sthu/Dropbox/LIT/apa.csl"
+
+reference-location: document
+number-sections: true
+---
+
+# Assessment methods and criteria 
+
+Students complete this module with an academic presentation. 
+The presentation will take place during the lecture period, with the exact dates set by the lecturer. Each presentation lasts a minimum of 10 minutes per student. Additionally, students should produce a handout outlining the key points of your presentation and the literature on which it is based. The handout should provide additional information and resources beyond what is covered in the presentation. In other words, the handout should complement the presentation. The length of the handout should be between 3 and 5 pages of text.
+
+The presentation contributes 65% to the module grade, while the handout contributes 35%. A passing grade for this module is achieved when the overall grade is greater than or equal to 4.0.
+
+# Content of the presentation and handout
+
+Your presentation should aim to enhance your fellow students' understanding of the assigned topic. Given the limited presentation time, it is essential to select your content carefully. One of your key challenges is to identify the most important elements of your topic and present them in a manner that can be communicated and understood within the allocated time. In some cases, your presentation may also ignite the audience's curiosity, encouraging them to explore the topic further on their own. 
+
+While you are responsible for the overall content, your submission must include R code and an exercise related to your topic. The exercise should be completed by the students during the class immediately following your presentation. 
+
+# Form of the presentation and the handout
+
+Create a presentation and a handout using Quarto. The handout layout should adhere to the style guide of @APA2020Publication. Please use the Quarto extension `apaquarto`, which you can find here: [https://github.com/wjschne/apaquarto](https://github.com/wjschne/apaquarto). Alternatively, you can clone the repo [https://github.com/hubchev/dadm_ws26](https://github.com/hubchev/dadm_ws26) and use the QMD file that you find there as a template.^[Clone the repo by typing the following in your terminal: `git clone https://github.com/hubchev/dadm_ws26`] Both your handout and presentation should be available online on the day of your presentation. Ensure the HTML file is a standalone website (HTML), and also provide a PDF version of your handout and presentation. The PDF of your handout should be formatted for A4 paper. For guidance on creating a standalone HTML file, refer to [Quarto HTML Publishing](https://quarto.org/docs/output-formats/html-publishing.html#standalone-html). Publish both the website and handout on GitHub, sharing the URLs with the audience for access during your presentation. Additionally, please submit at least the following files on ILIAS:
+
+- Quarto files of your handout and presentation.
+- HTML files of your handout and presentation.
+- PDF files of your handout and presentation.
+
+The design and the layout of the presentation slides are your choice. However, please avoid trying to impress with elaborate layouts or extraneous details. This is an academic presentation, and distracting decorations are inappropriate. Your primary focus should be on effectively communicating information, facts, and insights to the reader. Feel free to include any elements that support this goal. In the presentation, tables and figures don't need to be numbered. Also, consider additional requirements for your submission outlined below.
+
+Below you see an affidavit. Fill it out and put it at the end of your report. 
+
+::: {.callout-tip appearance="default" title="Affidavit" icon=false}
+I hereby affirm that this submitted paper was authored unaided and solely by me. Additionally, no other sources than those in the reference list were used. Parts of this paper, including tables and figures, that have been taken either verbatim or analogously from other works have in each case been properly cited with regard to their origin and authorship. This paper either in parts or in its entirety, be it in the same or similar form, has not been submitted to any other examination board and has not been published.
+
+I acknowledge that the university may use plagiarism detection software to check my thesis. I agree to cooperate with any investigation of suspected plagiarism and to provide any additional information or evidence requested by the university.
+
+Checklist:
+
+- [ ] The handout contains 3-5 pages of text.
+- [ ] The submission contains the Quarto file of the handout.
+- [ ] The submission contains the Quarto file of the presentation.
+- [ ] The submission contains the HTML file of the handout.
+- [ ] The submission contains the HTML file of the  presentation.
+- [ ] The submission contains the PDF file of the  handout.
+- [ ] The submission contains the PDF file of the  presentation.
+- [ ] The title page of the presentation and the handout contain personal details (name, email, matriculation number). 
+- [ ] The handout contains a bibliography, created using BibTeX with an APA citation style.
+- [ ] I have made a pull request on [https://github.com/hubchev/make_a_pull_request/](https://github.com/hubchev/make_a_pull_request/) where I added my GitHub username and the GitHub repository that relates to this submission in the file [https://github.com/hubchev/make_a_pull_request/dadm_ws26.md](https://github.com/hubchev/make_a_pull_request/dadm_ws26.md).
+- [ ] Either the handout or the presentation contains R code that proofs the expertise in coding.
+- [ ] The filled out Affidavit.
+- [ ] The link to the presentation and the handout published on GitHub.
+
+\[Your Name,\] \[Date,\] \[Place\]
+:::
+
+::: {.callout-tip appearance="default"}
+- You can check the box in Quarto like this:
+
+```{quarto}
+-   [x] I checked this box
+```
+
+- A template for the handout can be found here: [https://github.com/hubchev/temp_apa_stu](https://github.com/hubchev/dadm_ws26)
+:::
+
+# General tips
+
+I refrain from specific advice on good writing, structuring your work, or adhering to academic rules and conventions. Therefore, I recommend reading @Huber2024My and the literature cited therein. 
+
+Since this is an academic presentation and work, respectively, please choose your sources carefully and ensure that you cite them appropriately. 
+If anything is unclear, please let me know as soon as possible. It is your responsibility to be well prepared on the day of your presentation. If you encounter any problems, let me know immediately and I will do my best to help you. However, please understand that I may have limited availability in the days or weeks leading up to your presentation. Prioritize the essential tasks that are technically complex or where something is likely to go wrong.
+
+
+# Topics and dates
+
+Please consider @tbl-tpc. You should be able to identify yourself with your first name.
+
+::: {.callout-important appearance="default"}
+- If you do not see your name  on the list but have registered, please contact me as soon as possible.
+
+- The presentation day is an official examination day, and failure to attend will result in a grade of 5.0. Ensure that you do not miss this important date.
+:::
+
+
+::: {#tbl-tpc}
+
+| Date   | Name      | Topic | 
+|----|------|-------------------------------------|
+| Nov 18 | Moura     | Literate Programming With Quarto^[Quarto is a good application to build reproducible research and produce publications. Explain *literare programming*  and focus on how to include code in Quarto. See: @Rodrigues2023Building, @carpentries-incubator2025Introduction] | 
+| Nov 18 | Bani      | Importing Data in R: Exploring Various Packages and Their Advantages^[See: @Wickham2025R[ch. 7], @Batra2024Epidemiologist[ch. 7]] |
+| Nov 18 | Yang      | Version Control and RStudio^[See: @Batra2024Epidemiologist[ch. 46]] |
+| Nov 25 | Azimi     | Writing R Code with NextGenAI Assistance | 
+| Nov 25 | Wang      | R Control Flow Statements^[Please collaborate with Dai.] |
+| Nov 25 | Schenk    | R Control Flow Statements and Flow Charts^[Please collaborate with Cayllahua.] | 
+| Dec 2  | Dai       | Time Series Visualization in R | 
+| Dec 2  | Virda     | The Importance of Summary Statistics |   
+| Dec 2  | Gokhale   | Accessing Internet Data Sources in R with Convenient Packages |
+| Dec 2  | Khatkar   | Descriptive Tables in R with dplyr and gtsummary |
+| Dec 9  | Cayllahua | Why Data Cleaning Matters: Methods and Tools in R^[Please collaborate with Rabiee] |
+| Dec 9  | Stefiany  | Handling Duplicates in Data: Challenges and Solutions^[Please collaborate with Moura] |
+| Dec 9  | Rabiee    | Interactive Visualization in R & Applications in Business |
+| Dec 9  | Kanojia   | Interactive Business Analytics Using R and Shiny: The Radiant Package | 
+| Dec 16 | Balaguru  | Geospatial Visualization with R |
+| Dec 16 | Wu        | Applying Cluster Analysis in R for Business Segmentation |        
+| Dec 16 | Gurbanov  | Factor Analysis for Business Decision-Making Using R |               
+| Dec 16 | Wayuphat  | Visualizing Multiple Variables With R |
+| Dec 16 | Boda      | Conducting Multiple Linear Regression Analysis Using R | 
+| Dec 16 | Tchakoutio| Understanding Syntax: Python and R Compared |
+
+Topics, students, and dates
+:::
+
+
+# References
+
+::: {#refs}
+:::
