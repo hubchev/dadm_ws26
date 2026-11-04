@@ -3,11 +3,7 @@ title: "Presentation and Handout Guidelines"
 subtitle: "Data Analysis for Decision-Making (WS 2026)"
 
 author:
-  - name:
-      given: Stephan
-      family: Huber
-      literal: Prof. Dr. Stephan Huber (Matr. Nr. 1234567890)
-      degress: Prof. Dr. 
+  - name: Prof. Dr. Stephan Huber (Matr. Nr. 1234567890)
     affiliation: Fresenius University of Applied Science
     url: https://hubchev.github.io/
     email: stephan.huber@hs-fresenius.de
@@ -17,7 +13,7 @@ course: Data Analysis for Decision-Making
 professor: Prof. Dr. Stephan Huber
 date: today
 date-format: long
-abstract: "This document outlines the requirements for successfully contributing to the course through an academic presentation. It introduces and assigns the available topics, establishes the standards for both delivery and the creation of files, and provides tips how students can effectively meet the expectations."
+abstract: "This document outlines the requirements for successfully contributing to the course 'Data Analysis for Decision-Making'. It introduces and assigns the available topics, establishes the standards for both delivery and the creation of files, and provides tips how students can efficiently and effectively meet the expectations."
 
 format:
   apaquarto-pdf:
@@ -37,14 +33,14 @@ number-sections: true
 
 # Assessment methods and criteria 
 
-Students complete this module with an academic presentation. 
+Students complete this module with an academic presentation and a handout. 
 The presentation will take place during the lecture period, with the exact dates set by the lecturer. Each presentation lasts a minimum of 10 minutes per student. Additionally, students should produce a handout outlining the key points of your presentation and the literature on which it is based. The handout should provide additional information and resources beyond what is covered in the presentation. In other words, the handout should complement the presentation. The length of the handout should be between 3 and 5 pages of text.
 
 The presentation contributes 65% to the module grade, while the handout contributes 35%. A passing grade for this module is achieved when the overall grade is greater than or equal to 4.0.
 
 # Content of the presentation and handout
 
-Your presentation should aim to enhance your fellow students' understanding of the assigned topic. Given the limited presentation time, it is essential to select your content carefully. One of your key challenges is to identify the most important elements of your topic and present them in a manner that can be communicated and understood within the allocated time. In some cases, your presentation may also ignite the audience's curiosity, encouraging them to explore the topic further on their own. 
+Your presentation should aim to enhance your fellow students' understanding of the assigned topic. Given the limited presentation time, it is essential to select your content carefully. One of your key challenges is to identify important elements of your topic and present them in a manner that can be communicated and understood within the allocated time. In some cases, your presentation may also ignite the audience's curiosity, encouraging them to explore the topic further on their own. 
 
 While you are responsible for the overall content, your submission must include R code and an exercise related to your topic. The exercise should be completed by the students during the class immediately following your presentation. 
 
